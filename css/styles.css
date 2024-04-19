@@ -1,0 +1,43 @@
+/*
+He colocado la declaración !important, ya que al momento de colocar estilos en CSS no se aplicaban. Busqué el motivo y una de las respuestas que hallé fué que Bootstrap esta sobre CSS, y una de las dos soluciones que me funcionó fue inspeccionar, desactivar los colores que estabs "predeterminados" y colocar la declaración !important después.
+*/
+p{
+    font-family: Montserrat Alternates !important; 
+    color: #3A4D39 !important;
+    text-align: justify;
+}
+h1.text-primary{
+    font-family: Montserrat Alternates !important;
+    color: #76453B !important;
+    text-align: center;
+}
+h2.text-primary{
+    font-family: Montserrat Alternates !important;
+    color:#43766C !important;
+    text-align: center;
+}
+h6.text-primary{
+    font-family: Montserrat Alternates !important;
+    color: #43766C !important;
+}
+ul{
+    list-style-type: " ♥ ";
+    font-family: Montserrat Alternates !important;
+    color: #43766C;
+}
+#gandalf{
+    width: 500px;
+}
+#almendra{
+    height: 500px;
+}
+#invisible{
+    height: 250px;
+    text-align: center;
+}
+img{
+    border: #FAD7A0 4px double;
+}
+body{
+    background-color: #D7E4C0 !important;
+}
